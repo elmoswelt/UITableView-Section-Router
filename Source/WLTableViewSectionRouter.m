@@ -57,7 +57,7 @@
 // ------------------------------------------------------------------------------------------
 #pragma mark - Initialization
 // ------------------------------------------------------------------------------------------
-- (id)initWithSectionCount:(NSUInteger)sectionCount
+- (instancetype)initWithSectionCount:(NSUInteger)sectionCount
 {
     if ((self = [self init]))
     {
@@ -67,7 +67,7 @@
 }
 
 
-- (id)init
+- (instancetype)init
 {
     if ((self = [super init]))
     {

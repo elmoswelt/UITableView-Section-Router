@@ -44,10 +44,10 @@
 @interface WLTableViewSectionRouter : NSObject <UITableViewDelegate, UITableViewDataSource>
 
 /** Initialize a section router with the amount of sections to route. */
-- (id)initWithSectionCount:(NSUInteger)sectionCount;
+- (instancetype)initWithSectionCount:(NSUInteger)sectionCount;
 
 /** Designated Initialzer. Always initialzes the Router with one section as defailt. */
-- (id)init;
+- (instancetype)init;
 
 /** Add a default section controller. If the ViewController which handles the tableView will do some of the
  <UITableViewDataSource> and <UITableViewDelegate> logic, use this method and add self as parameter to it. */
